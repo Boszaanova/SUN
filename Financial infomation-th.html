@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="th">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>ข้อมูลทางการเงิน</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/CustomCss/style.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <style>
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- Navbar load -->
+    <div id="nav-placeholder"></div>
+    <!-- End navbar load  -->
+
+    <main>
+
+        <div class="container-fluid banner bg1 p-5 text-light">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold text-uppercase">ข้อมูลทางการเงิน</h1>
+                <p class="col-md-8 fs-4">" บริษัทฯ ดำเนินธุรกิจผลิตและจำหน่ายข้าวโพดหวานแปรรูปและสินค้าเกษตรอื่นๆ
+                    ภายใต้ตราสินค้า “KC” นอกจากนี้ บริษัทฯ ยังรับผลิตตามคำสั่งซื้อของลูกค้าภายใต้ตราสินค้าของตนเอง "</p>
+
+            </div>
+        </div>
+
+
+
+        <div class="container box-shadow  fs-5">
+            <div class="d-flex align-items-start">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link text-dark active text-start border mt-1 shadow py-3" id="v-pills-1-tab"
+                        data-bs-toggle="pill" data-bs-target="#v-pills-1" type="button" role="tab"
+                        aria-controls="v-pills-1" aria-selected="true"><i
+                            class="bi bi-file-earmark-diff-fill mx-2 h3"></i>งบการเงิน</button>
+
+                    <button class="nav-link text-dark text-start border mt-1 shadow py-3" id="v-pills-2-tab"
+                        data-bs-toggle="pill" data-bs-target="#v-pills-2" type="button" role="tab"
+                        aria-controls="v-pills-2" aria-selected="false"><i
+                            class="bi bi-file-earmark-text-fill mx-2  h3"></i>ข้อมูลทางการเงินโดยสรุป</button>
+
+                    <button class="nav-link text-dark text-start border mt-1 shadow py-3" id="v-pills-3-tab"
+                        data-bs-toggle="pill" data-bs-target="#v-pills-3" type="button" role="tab"
+                        aria-controls="v-pills-3" aria-selected="false"><i
+                            class="bi bi-file-earmark-bar-graph-fill mx-2 h3"></i>รายงานประจำปี</button>
+
+                    <button class="nav-link text-dark text-start border mt-1 shadow py-3" id="v-pills-7-tab"
+                        data-bs-toggle="pill" data-bs-target="#v-pills-7" type="button" role="tab"
+                        aria-controls="v-pills-7" aria-selected="false"><i
+                            class="bi bi-file-earmark-richtext-fill mx-2 h3"></i>Company Snapshot</button>
+
+                    <button class="nav-link text-dark text-start border mt-1 shadow" id="v-pills-4-tab"
+                        data-bs-toggle="pill" data-bs-target="#v-pills-4" type="button" role="tab"
+                        aria-controls="v-pills-4" aria-selected="false"><i
+                            class="bi bi-file-earmark-medical-fill mx-2 h3"></i>คำอธิบาย
+                        และการวิเคราะห์ของฝ่ายจัดการ</button>
+
+                    <button class="nav-link text-dark text-start border mt-1 shadow" id="v-pills-5-tab"
+                        data-bs-toggle="pill" data-bs-target="#v-pills-5" type="button" role="tab"
+                        aria-controls="v-pills-5" aria-selected="false"><i
+                            class="bi bi-file-earmark-ruled-fill mx-2 h3"></i>แบบแสดงรายการข้อมูล<br>ประจำปี (แบบ
+                        56-1)</button>
+
+                    <button class="nav-link text-dark text-start border mt-1 shadow" id="v-pills-6-tab"
+                        data-bs-toggle="pill" data-bs-target="#v-pills-6" type="button" role="tab"
+                        aria-controls="v-pills-6" aria-selected="false"><i
+                            class="bi bi-file-earmark-person-fill mx-2 h3"></i>บริษัทจดทะเบียน<br>พบผู้ลงทุน( Opp Day
+                        )</button>
+
+                </div>
+
+                <!--งบการเงิน start-->
+                <div class="tab-content" id="v-pills-tabContent" style="width: 100%;">
+
+                    <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel"
+                        aria-labelledby="v-pills-1-tab">
+
+
+
+                        <table class="table  table-hover" id='myTable'>
+                            <tbody>
+                                <tr>
+
+                                    <td>งบการเงิน ไตรมาสที่ 3/2565 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงิน ไตรมาสที่ 32565 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>งบการเงิน ไตรมาสที่ 2/2565 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงิน ไตรมาสที่ 22565.zip"
+                                            role="button">ดาวน์โหลด</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>งบการเงิน ไตรมาสที่ 1/2565 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงิน ไตรมาสที่ 12565.zip"
+                                            role="button">ดาวน์โหลด</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงิน ประจำปี 2564 (ตรวจสอบแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงิน ประจำปี 2564 (ตรวจสอบแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงิน ไตรมาสที่ 3/2564 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงิน ไตรมาสที่ 32564 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+
+
+
+
+                                <tr>
+
+                                    <td>งบการเงิน ไตรมาสที่ 2/2564 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงิน ไตรมาสที่ 22564 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงิน ไตรมาสที่ 1/2564 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงิน ไตรมาสที่ 12564 (สอบทานแล้ว) (แก้ไขทุนชำระแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงิน ประจำปี 2563 (ตรวจสอบแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงิน ประจำปี 2563 (ตรวจสอบแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงิน ไตรมาสที่ 3/2563 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงิน ไตรมาสที่ 32563 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+
+
+
+                                <tr>
+
+                                    <td>งบการเงิน ไตรมาสที่ 2/2563 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงิน ไตรมาสที่ 22563 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงิน ไตรมาสที่ 1/2563 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงินไตรมาสที่ 12563 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงินรายปี 2562 (ตรวจสอบแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงินรายปี 2562 (ตรวจสอบแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงินไตรมาสที่ 3/2562 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงินไตรมาสที่ 32562 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td>งบการเงินไตรมาสที่ 2/2562 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงินไตรมาสที่ 22562 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงินไตรมาสที่ 1/2562 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงินไตรมาสที่ 12562 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงินรายปี 2561 (ตรวจสอบแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงินรายปี 2561 (ตรวจสอบแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงินไตรมาสที่ 3/2561 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงินไตรมาสที่ 32561 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+
+
+
+                                <tr>
+
+                                    <td>งบการเงินไตรมาสที่ 2/2561 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงินไตรมาสที่ 22561 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>งบการเงินไตรมาสที่ 1/2561 (สอบทานแล้ว)</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/งบการเงิน/งบการเงินไตรมาสที่ 12561 (สอบทานแล้ว).zip"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!--งบการเงิน end-->
+
+                    <!--ข้อมูลทางการเงินโดยสรุป  start-->
+                    <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+
+                        <table class="table table-hover" id='myTable'>
+                            <tbody>
+
+                                <tr>
+
+                                    <td>ข้อมูลทางการเงินโดยสรุป 2564</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/ข้อมูลทางการเงินโดยสรุป/ข้อมูลทางการเงินโดยสรุป 2564.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+                                </tr>
+                                <tr>
+
+                                    <td>ข้อมูลทางการเงินโดยสรุป 2563</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/ข้อมูลทางการเงินโดยสรุป/ข้อมูลทางการเงินโดยสรุป 2563.pdf"
+                                            role="button">ดาวน์โหลด</a>
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td>ข้อมูลทางการเงินโดยสรุป 2562</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/ข้อมูลทางการเงินโดยสรุป/ข้อมูลทางการเงินโดยสรุป 2562.pdf"
+                                            role="button">ดาวน์โหลด</a>
+                                    </td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>ข้อมูลทางการเงินโดยสรุป 2561</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/ข้อมูลทางการเงินโดยสรุป/ข้อมูลทางการเงินโดยสรุป 2561.pdf"
+                                            role="button">ดาวน์โหลด</a>
+                                    </td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>ข้อมูลทางการเงินโดยสรุป 2560</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/ข้อมูลทางการเงินโดยสรุป/ข้อมูลทางการเงินโดยสรุป 2560.pdf"
+                                            role="button">ดาวน์โหลด</a>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!--ข้อมูลทางการเงินโดยสรุป  end-->
+
+                    <!--รายงานประจำปี start-->
+                    <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+
+
+
+                        <table class="table table-hover" id='myTable'>
+                            <tbody>
+                                <tr>
+
+                                    <td>รายงานประจำปี 2564</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/รายงานประจำปี/รายงานประจำปี 2564.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>รายงานประจำปี 2563</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/รายงานประจำปี/รายงานประจำปี 2563.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>รายงานประจำปี 2562</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/รายงานประจำปี/รายงานประจำปี 2562.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>รายงานประจำปี 2561</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/รายงานประจำปี/รายงานประจำปี 2561.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!--รายงานประจำปี end-->
+
+                    <!--Company Snapshot start-->
+
+                    <div class="tab-pane fade" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-7-tab">
+
+                        <table class="table table-hover">
+                            <tbody>
+                                <tr>
+
+                                    <td>Company Snapshot 3M 2565</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="https://lssmedia.setlink.set.or.th/2022/3M/SUN-3M65-ListedCompanySnapshot-TH.html"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>Company Snapshot 6M 2565</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="https://lssmedia.setlink.set.or.th/2022/6M/SUN-6M65-ListedCompanySnapshot-TH.html"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!--Company Snapshot end-->
+
+                    <!--คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ start-->
+
+                    <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+
+                        <table class="table table-hover">
+                            <tbody>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 3/2565</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 32565.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 2/2565</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 2 สิ้นสุดวันที่ 30 มิ.ย. 2565.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 1/2565</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 1 สิ้นสุดวันที่ 31 มี.ค. 2565.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ประจำปี 2564</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ประจำปี สิ้นสุดวันที่ 31 ธ.ค. 2564.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+
+
+
+
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 3/2564</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 3 สิ้นสุดวันที่ 30 ก.ย. 2564.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 2/2564</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 2 สิ้นสุดวันที่ 30 มิ.ย. 2564 (แก้ไข).pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 1/2564</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 1 สิ้นสุดวันที่ 31 มี.ค. 2564.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ประจำปี 2563</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ประจำปี สิ้นสุดวันที่ 31 ธ.ค. 2563.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+
+
+
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 3/2563</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 3 สิ้นสุดวันที่ 30 ก.ย. 2563.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 2/2563</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 2 สิ้นสุดวันที่ 30 มิ.ย. 2563.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 1/2563</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 1 สิ้นสุดวันที่ 31 มี.ค. 2563.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ประจำปี 2562</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ประจำปี สิ้นสุดวันที่ 31 ธ.ค. 2562.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+
+
+
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 3/2562</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 3 สิ้นสุดวันที่ 30 ก.ย. 2562.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 2/2562</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 2 สิ้นสุดวันที่ 30 มิ.ย. 2562.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 1/2562</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 1 สิ้นสุดวันที่ 31 มี.ค. 2562.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ประจำปี 2561</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ประจำปี สิ้นสุดวันที่ 31 ธ.ค. 2561.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+
+
+
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 3/2561</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 3 สิ้นสุดวันที่ 30 ก.ย. 2561.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 2/2561</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 2 สิ้นสุดวันที่ 30 มิ.ย. 2561.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 1/2561</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ไตรมาสที่ 1 สิ้นสุดวันที่ 31 มี.ค. 2561.pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                                <tr>
+
+                                    <td>คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ ประจำปี 2560</td>
+                                    <td class="text-end"><a class="btn btn-sun1"
+                                            href="./Document/คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ/คำอธิบายและวิเคราะห์ของฝ่ายจัดการ ประจำปี สิ้นสุดวันที่ 31 ธ.ค. 2560 (แก้ไข).pdf"
+                                            role="button">ดาวน์โหลด</a></td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!--คำอธิบาย และการวิเคราะห์ของฝ่ายจัดการ end-->
+
+                    <!--แบบแสดงรายการข้อมูลประจำปี start-->
+                    <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+                        
+
+
+                            <table class="table table-hover" id='myTable'>
+                                <tbody>
+
+                                    <tr>
+
+                                        <td>แบบแสดงรายการข้อมูลประจำปี (แบบ 56-1) 2562</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="./Document/แบบแสดงรายการข้อมูลประจำปี (แบบ 56-1)/แบบแสดงรายการข้อมูลประจำปี 2562.pdf"
+                                                role="button">ดาวน์โหลด</a></td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>แบบแสดงรายการข้อมูลประจำปี (แบบ 56-1) 2561</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="./Document/แบบแสดงรายการข้อมูลประจำปี (แบบ 56-1)/แบบแสดงรายการข้อมูลประจำปี 2561.pdf"
+                                                role="button">ดาวน์โหลด</a></td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>แบบแสดงรายการข้อมูลประจำปี (แบบ 56-1) 2560</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="./Document/แบบแสดงรายการข้อมูลประจำปี (แบบ 56-1)/แบบแสดงรายการข้อมูลประจำปี 2560.pdf"
+                                                role="button">ดาวน์โหลด</a></td>
+
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+
+                        
+
+
+                    </div>
+                    <!--แบบแสดงรายการข้อมูลประจำปี end-->
+
+                    <!--บริษัทจดทะเบียนพบผู้ลงทุน ( Opp Day ) start-->
+                    <div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
+                        
+
+
+                            <table class="table table-hover" id='myTable'>
+                                <tbody>
+
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ไตรมาสที่ 3 2565</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=_5-zFi5BlaI" role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ไตรมาสที่ 2 2565</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=IvlAyr0-P2Q&t=64s"
+                                                role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ไตรมาสที่ 1 2565</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=yejlubmmfDs" role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ประจำปี 2564</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=SHVUDX1aKSo" role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ไตรมาสที่ 3 2564</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=mdzBqynZjKQ" role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ไตรมาสที่ 2 2564</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=KwkWN-TAYyQ&t=8s"
+                                                role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ไตรมาสที่ 1 2564</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=FyKns4dboBQ" role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ประจำปี 2563</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=LjTd-Kq_kdY" role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ไตรมาสที่ 3 2563</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=vJaqyH1gErs&t=2265s"
+                                                role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ไตรมาสที่ 2 2563</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=SAaPGFc67hk" role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ไตรมาสที่ 1 2563</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=EumeYZSV6FU&t=88s"
+                                                role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ไตรมาสที่ 3 2562</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=1SGVwJuTLDk" role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>บริษัทจดทะเบียนพบผู้ลงทุน (Opp Day) ไตรมาสที่ 2 2562</td>
+                                        <td class="text-end"><a class="btn btn-sun1"
+                                                href="https://www.youtube.com/watch?v=uYrNa1pcKZw" role="button">ลิงค์วีดีโอ</a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+
+                        
+
+
+                    </div>
+                    <!--บริษัทจดทะเบียนพบผู้ลงทุน ( Opp Day ) end-->
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <hr>
+    </main>
+
+    <!-- Footer load -->
+    <div id="footer-placeholder"></div>
+    <!-- End Footer load  -->
+
+    <script src="assets/js/LoadHeadderFooter-th.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Cookie consent -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js"
+        data-cfasync="false"></script>
+    <script>
+        window.addEventListener('load', function () {
+            window.cookieconsent.initialise({
+                revokeBtn: "<div class='cc-revoke'></div>",
+                type: "opt-in",
+                position: "bottom-right",
+                theme: "classic",
+                palette: {
+                    popup: {
+                        background: "rgb(61 61 61 / 91%)",
+                        text: "#fff"
+                    },
+                    button: {
+                        background: "#ffc107",
+                        text: "#000"
+                    }
+                },
+                content: {
+                    link: "About consent",
+                    href: "https://2gdpr.com/cookies"
+                },
+                onInitialise: function (status) {
+                    if (status == cookieconsent.status.allow) myScripts();
+                },
+                onStatusChange: function (status) {
+                    if (this.hasConsented()) myScripts();
+                }
+            })
+        });
+
+        function myScripts() {
+
+            // Paste here your scripts that use cookies requiring consent. See examples below
+
+            // Google Analytics, you need to change 'UA-00000000-1' to your ID
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-00000000-1', 'auto');
+            ga('send', 'pageview');
+
+
+            // Facebook Pixel Code, you need to change '000000000000000' to your PixelID
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) return; n = f.fbq = function () {
+                    n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+                n.queue = []; t = b.createElement(e); t.async = !0;
+                t.src = v; s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '000000000000000');
+            fbq('track', 'PageView');
+
+        }
+    </script>
+    <!-- Cookie consent -->
+</body>
+
+</html>
