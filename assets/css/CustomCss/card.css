@@ -1,0 +1,63 @@
+.person {
+  width: 50%;
+  height: 100%;
+}
+
+.card {
+  transition: all 0.15s ease;
+  cursor: pointer;
+  gap: 0;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+}
+.card:hover {
+  transform: scale(1.04);
+  color: #414141 !important;
+  transition: 0.15s;
+
+}
+
+.cards {
+  transition: all 0.15s ease;
+  cursor: pointer;
+  gap: 0;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+}
+
+
+.cards:hover {
+  border-left: 12px solid #ff7c00 !important;
+  background-color: #fff;
+  
+
+
+}
+
+.cards1 {
+  transition: all 0.2s ease;
+  cursor: pointer;
+  gap: 0;
+}
+
+.cards1:hover {
+  transform: scale(1.03);
+  transition: 0.1s;
+}
+
+
+
+.card-icon {
+  transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+}
+.card-icon:hover {
+  transform: scale(1.07);
+}
