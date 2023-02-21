@@ -23,8 +23,6 @@
       -o-transition: all 0.35s ease;
       transition: all 0.15s ease;
     }
-
-   
   </style>
 
 </head>
@@ -68,25 +66,87 @@
             <div class="album pt-3">
               <div class="container">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+
+                  <!-- Card canned corn start -->
                   <div class="col">
                     <div class="card shadow-sm">
-                      <img src="./assets/media/product/CANNED 75oz.png">
-
+                      <img src="./assets/media/product/CANNED 8oz.png">
                       <div class="card-body">
-                        <p class="card-text">CANNED CORN</p>
-                        <p>This is a wider card with supporting text below as a natural lead-in to additional content.
-                          This
-                          content is a little bit longer.</p>
+                        <p class="card-text">Canned sweet corn</p>
+                        <p>Canned sweet corn ready to eat or cooked with special dish.</p>
                         <div class="d-flex justify-content-between align-items-center">
-                          <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                          </div>
+                          <a href="#" class="stretched-link mt-2" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-1"><button class="btn btn-sun1"><i
+                                class="bi bi-info-circle fs- me-2"></i>Details</button></a>
+
+
                           <small class="text-muted">9 mins</small>
                         </div>
                       </div>
                     </div>
+                    <!-- Modal Postion1 start-->
+                    <div class="modal fade modal-xl " id="exampleModal-1" tabindex="-1"
+                      aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+
+                            
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="images p-3">
+                                  <div class="text-center"> <img id="main-image"
+                                      src="./assets/media/product/CANNED 8oz.png" width="100%" /> </div>
+                                  <div class="thumbnail text-center mt-3">
+                                    <img onclick="change_image(this)" src="./assets/media/product/CANNED 8oz.png"
+                                      width="90">
+                                    <img onclick="change_image(this)" src="./assets/media/product/CANNED 8oz.png"
+                                      width="90">
+                                    <img onclick="change_image(this)" src="./assets/media/product/CANNED 8oz.png"
+                                      width="90">
+                                    <img onclick="change_image(this)" src="./assets/media/product/CANNED 8oz.png"
+                                      width="90">
+
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="product p-4">
+
+                                  <div class="mb-2"> <span class="text-uppercase text-sun fw-bold">KC brand</span>
+                                    <h4 class="text-uppercase mt-2">Canned sweet corn</h4>
+                                  </div>
+                                  <p class="about">Canned sweet corn ready to eat or cooked with special dish, good for
+                                    health. Sweet corn is made from 100% super sweet corn which the best plantation in
+                                    northern part of Thailand. All product are produced within 24 hours after harvest.
+                                  </p>
+                                  <p class="mt-5">size : <span class="text-sun">8 oz.</span></p>
+                                  <p>weight : <span class="text-sun">185 g.</span></p>
+                                  <div class="cart mt-4 align-items-center">
+                                    <h6 class="mb-2">Now available in online shop</h6>
+                                    <a class="me-1"
+                                      href="https://shopee.co.th/kc_brand_officialshop?categoryId=100629&itemId=1564097984"><img
+                                        style="height:70px; width:auto;" src="./assets/media/icon/shopee-logo.svg"></a>
+                                    <a class="me-1"
+                                      href="https://www.lazada.co.th/sunsweet/?q=All-Products&langFlag=th&from=wangpu&lang=th&pageTypeId=2"><img
+                                        style="height:70px;width:auto;" src="./assets/media/icon/lazada_logo.svg"></a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-sun1" data-bs-dismiss="modal">ปิด</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Modal Postion1 end -->
                   </div>
+                  <!-- Card canned corn start -->
 
 
 
@@ -440,6 +500,8 @@
 
   <script src="assets/js/LoadHeadderFooter.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/ChangeImage.js"></script>
+
   <!-- Cookie consent -->
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" />
